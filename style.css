@@ -38,7 +38,7 @@ button {
 
 #shirtName {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 24px;
@@ -47,7 +47,7 @@ button {
 
 #shirtNumber {
     position: absolute;
-    top: 38%;
+    top: 28%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 60px;
