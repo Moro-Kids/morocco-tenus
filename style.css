@@ -38,10 +38,10 @@ button {
 
 #shirtName {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 44px;
+    font-size: 33px;
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ button {
     top: 28%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 90px;
+    font-size: 100px;
     font-weight: bold;
 }
 
