@@ -1,6 +1,8 @@
 function updateShirt() {
     document.getElementById("shirtName").textContent = document.getElementById("nameInput").value;
     document.getElementById("shirtNumber").textContent = document.getElementById("numberInput").value;
+    document.getElementById("shirtName").style.color = "#c00000";
+    document.getElementById("shirtNumber").style.color = "#c00000"
 }
 
 function changeColor() {
