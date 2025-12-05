@@ -47,7 +47,7 @@ button {
 
 #shirtNumber {
     position: absolute;
-    top: 38%;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 100px;
