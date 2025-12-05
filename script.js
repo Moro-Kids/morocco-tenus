@@ -9,14 +9,14 @@ function changeColor() {
     let nameText = document.getElementById("shirtName");
     let numberText = document.getElementById("shirtNumber");
 
-    if (color === "white") {
-        img.src = "white.png";
-        nameText.style.color = "#c00000";   // أحمر
-        numberText.style.color = "#c00000"; // أحمر
-    } else if (color === "red") {
+    if (color === "red") {
         img.src = "red.png";
         nameText.style.color = "#ffffff";   // أبيض
         numberText.style.color = "#ffffff"; // أبيض
+    } else if (color === "white") {
+        img.src = "white.png";
+        nameText.style.color = "#c00000";   // أحمر
+        numberText.style.color = "#c00000"; // أحمر
     }
 }
 
