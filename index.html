@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تخصيص قميص المنتخب</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<body>
+
+<div class="container">
+    <h2>تخصيص قميص المنتخب المغربي</h2>
+
+    <input type="text" id="nameInput" placeholder="الإسم" />
+    <input type="number" id="numberInput" placeholder="الرقم" />
+
+    <select id="colorSelect" onchange="changeColor()">
+        <option value="white">الأبيض</option>
+        <option value="red">الأحمر</option>
+    </select>
+
+    <button onclick="updateShirt()">تحديث القميص</button>
+
+    <div class="preview" id="previewArea">
+        <img id="shirtImage" src="white.png" alt="Shirt" />
+        <div id="shirtName"></div>
+        <div id="shirtNumber"></div>
+    </div>
+
+    <button onclick="downloadImage()">تحميل الصورة</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

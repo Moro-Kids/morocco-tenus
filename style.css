@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background: #d60000;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.preview {
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+#shirtName {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #c00000;
+}
+
+#shirtNumber {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    font-weight: bold;
+    color: #c00000;
+}
+
+img {
+    width: 350px;
+}
