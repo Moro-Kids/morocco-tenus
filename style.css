@@ -43,7 +43,6 @@ button {
     transform: translateX(-50%);
     font-size: 24px;
     font-weight: bold;
-    color: #c00000;
 }
 
 #shirtNumber {
@@ -53,7 +52,6 @@ button {
     transform: translateX(-50%);
     font-size: 60px;
     font-weight: bold;
-    color: #c00000;
 }
 
 img {
