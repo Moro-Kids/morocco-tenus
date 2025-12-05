@@ -11,12 +11,12 @@ function changeColor() {
 
     if (color === "white") {
         img.src = "white.png";
-        nameText.style.color = "#c00000";   // أحمر للقميص الأبيض
-        numberText.style.color = "#c00000"; // أحمر للقميص الأبيض
-    } else {
+        nameText.style.color = "#c00000";   // أحمر
+        numberText.style.color = "#c00000"; // أحمر
+    } else if (color === "red") {
         img.src = "red.png";
-        nameText.style.color = "#ffffff";   // أبيض للقميص الأحمر
-        numberText.style.color = "#ffffff"; // أبيض للقميص الأحمر
+        nameText.style.color = "#ffffff";   // أبيض
+        numberText.style.color = "#ffffff"; // أبيض
     }
 }
 
