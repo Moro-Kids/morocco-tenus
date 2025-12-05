@@ -4,13 +4,19 @@ function updateShirt() {
 }
 
 function changeColor() {
-    let color = document.getElementById("colorSelect").value;
+   let color = document.getElementById("colorSelect").value;
     let img = document.getElementById("shirtImage");
+    let nameText = document.getElementById("shirtName");
+    let numberText = document.getElementById("shirtNumber");
 
     if (color === "white") {
         img.src = "white.png";
+        nameText.style.color = "#c00000";   // أحمر للقميص الأبيض
+        numberText.style.color = "#c00000"; // أحمر للقميص الأبيض
     } else {
         img.src = "red.png";
+        nameText.style.color = "#ffffff";   // أبيض للقميص الأحمر
+        numberText.style.color = "#ffffff"; // أبيض للقميص الأحمر
     }
 }
 
